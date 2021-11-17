@@ -1,6 +1,8 @@
 name: 测试构建
 
-on: [push]
+on: 
+  push:
+    branches: [ master ]
 
 jobs:
   build:
